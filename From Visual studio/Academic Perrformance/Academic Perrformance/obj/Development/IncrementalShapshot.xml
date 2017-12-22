@@ -1,0 +1,138 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Academic Perrformance</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>G09T9B48OGWTjPimFpwlHrwVcTc=4/26/2016 4:39:33 PM4/26/2016 4:39:33 PM</TimeStamp>
+        <ID>
+          <String>Schools K12 DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pATkAUedYWiU3H6JZz9DlA2vnao=4/26/2016 5:03:16 PM4/26/2016 4:45:46 PM</TimeStamp>
+        <ID>
+          <String>Schools K12 DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y2QGo51+u53csCnyOMtxH7kSU90=4/26/2016 6:33:15 PM4/26/2016 5:03:16 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3v7S4PN4KC6kQLvub/zykR+QGFQ=4/26/2016 6:14:10 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Grade Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gfzdRw5ypxk1mQb/vP0X5m9LvRk=4/26/2016 6:14:10 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Period</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>t1zvqD4id4nkOujR7j3TteMcTyQ=4/26/2016 6:20:26 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Student</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kF0aAegqTaW9/GehBHS5NrmHU+E=4/26/2016 6:14:10 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Staff</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kDuCpd6sFT6Dr38pe0VG6YuFZI4=4/26/2016 5:45:04 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Withdrawal Code</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CECbZZekgTXci3EYrNxrfxvuE+E=4/26/2016 5:45:04 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Course</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CwjsRQGXXc27CxbMm3WOAQUf1f0=4/26/2016 5:45:04 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Enrollment Code</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AXEgDRAg1vFakXqsHKad/P5YZCM=4/26/2016 6:37:41 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Facility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rAUe5Ol8sk/zoMiV18sAyzxbz1k=4/26/2016 5:45:04 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Subject</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>j+e1Ejpqk09L5vMQKoG2mrHhttk=4/26/2016 5:45:04 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Standardized Test Domain</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>59zpcaISZDjH9IzkYXTRGMvz9tI=4/26/2016 5:45:04 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>HSGT Domain</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>mUV2s/I9POLDspYp4AxkApsaSC0=4/26/2016 6:14:10 PM4/26/2016 5:21:11 PMBzUcsWMSxkUhNyGASKbA9gTkHGw=4/26/2016 5:21:12 PM4/26/2016 5:21:11 PM</TimeStamp>
+        <ID>
+          <String>Academic Performance</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>9OCtVBQb4G3tXz3XtQhDtpNmPUM=4/26/2016 4:36:37 PM4/26/2016 4:36:37 PM</TimeStamp>
+      <ID>
+        <String>Academic Perrformance</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-04-26T22:38:58.363333Z</LastDeployed>
+</DeploymentSnapshot>

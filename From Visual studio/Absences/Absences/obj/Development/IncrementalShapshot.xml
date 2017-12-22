@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Absences</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>06/D/ndBuQVBGg6kb2vArLYBLls=4/22/2016 3:17:41 PM4/22/2016 3:17:41 PM</TimeStamp>
+        <ID>
+          <String>Schools K12 DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>puc0hAjwVp7CTFLUeZszArRBE9A=4/22/2016 4:35:14 PM4/22/2016 3:25:31 PM</TimeStamp>
+        <ID>
+          <String>Schools K12 DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ytx1HlUPGn3KuGuj4OrZCM5PW2s=4/22/2016 6:28:01 PM4/22/2016 4:41:56 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Q0FMcFlBUgQr0b7VvWeJ4urYHAY=4/22/2016 6:28:01 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Facility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AQ1kPYJM+RLri8lOI+DvkS3ykpg=4/22/2016 6:34:30 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Student</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jKK+4AJT0pjSYMqo33VXTEN2N8k=4/22/2016 6:28:01 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Staff</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IQ7mjSR+lX72omyxY66WP+cajCw=4/22/2016 6:28:01 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Absence Code</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ku4grVZDlx6gTQGJbQiwVsAkc3g=4/22/2016 6:28:01 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Period</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZeFG/amolYOZHfwHnnIwRhDfM+8=4/22/2016 6:28:01 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Withdrawal Code</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4LBfDWj3I49rcKE7V5Q4XO4+aCU=4/22/2016 6:28:01 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Course</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PutCx/hqJL881cTlJI6smIu6ng0=4/22/2016 6:28:01 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Enrollment Code</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>skXmXHCs9y3rCT7+bnt143VkIEI=4/22/2016 6:28:01 PM4/22/2016 4:44:08 PMpdmIjiOEvzJSiJNuJ3yLHC1I5Us=4/22/2016 4:44:09 PM4/22/2016 4:44:08 PM</TimeStamp>
+        <ID>
+          <String>Schools K12 DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>QMobDO2m0F7Pqybh6XvzLj0llXY=4/22/2016 3:15:53 PM4/22/2016 3:15:53 PM</TimeStamp>
+      <ID>
+        <String>Absences</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-04-22T22:35:03.416667Z</LastDeployed>
+</DeploymentSnapshot>
